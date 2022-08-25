@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog-NextCoffee</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="header2">
+        <div class="logo"><img src="/src/img/logo.png"class="logo_img">
+            <div class="logo_text1">Next</div>
+            <div class="logo_text2"><a href="Home.html">Coffee</a></div>
+        </div>
+        <div class="headmenu">
+            <div class="home" >  <a href="Home.html">Головна</a></div>
+            <div class="catalog" ><a href="Catalog.html">Каталог</a></div>
+            <div class="support"><a href="Support.html">Допомога</a></div>
+            <div class="info"><a href="Info.html">Інформація</a></div>
+        </div>
+    </section>
+    
+    <section class="item">
+        <div class="coffee_text">КАВА
+            <hr>
+        </div>
+        <div class="coffeeitem">
+            <div class="coffeeitem1"><img src="/src/img/catalog/Американо.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem2"><img src="/src/img/catalog/Експресо.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem3"><img src="/src/img/catalog/Капучино.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem4"><img src="/src/img/catalog/Лате.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem5"><img src="/src/img/catalog/Мокко.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem6"><img src="/src/img/catalog/Стронг.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem7"><img src="/src/img/catalog/Фірмовий.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem8"><img src="/src/img/catalog/Ірландський.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem9"><img src="/src/img/catalog/Flat white.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem10"><img src="/src/img/catalog/Кава бомбон.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem11"><img src="/src/img/catalog/Макіато.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem12"><img src="/src/img/catalog/Меланж.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem13"><img src="/src/img/catalog/Романо.jpg" width="250px" height="250px" alt=""></div>
+            <div class="coffeeitem14"><img src="/src/img/catalog/Фраппе.jpg" width="250px" height="250px" alt=""></div>
+        </div>
+        <div class="tea_text">ЧАЙ
+            <hr>
+        </div>
+        <div class="teaitem">
+            <div class="teaitem1"><img src="/src/img/catalog/Чорний чай.jpg" width="250px" height="250px alt=""></div>
+            <div class="teaitem2"><img src="/src/img/catalog/Зелений чай.jpg" width="250px" height="250px alt=""></div>
+            <div class="teaitem3"><img src="/src/img/catalog/Зелений чай-лате.jpg" width="250px" height="250px alt=""></div>
+            <div class="teaitem4"><img src="/src/img/catalog/Анчана.jpg" width="250px" height="250px alt=""></div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="logo_footer"><img src="/src/img/logo.png"class="logo_imgf">
+            <div class="logo_textf">NextCoffee</div>    
+        </div>
+        <div class="menuf">
+            <div class="homef" >  <a href="Home.html">Home</a></div>
+            <div class="catalogf" ><a href="Catalog.html">Catalog</a></div>
+            <div class="supportf"><a href="Support.html">Support</a></div>
+            <div class="infof"><a href="Info.html">Info</a></div>
+        </div>
+        <div class="socf">
+            <div class="facebook"><img src="/src/img/soc/facebook.png" alt=""></div>
+            <div class="instagram"><img src="/src/img/soc/instagram.png" alt=""></div>
+            <div class="gmail"><img src="/src/img/soc/gmail.png" alt=""></div>
+        </div>
+    </section>
+
+    <section class="button_up">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <a href="#" class="scrollup">Up</a>
+    <script type="text/javascript">
+        $(document).ready(function(){
+         
+        $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+        $('.scrollup').fadeIn();
+        } else {
+        $('.scrollup').fadeOut();
+        }
+        });
+         
+        $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+        });
+         
+        });
+        </script>
+    </section>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-NextCoffee</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link href="https://www.dafontfree.net/embed/YnJpdGFubmljLWJvbGQtcmVndWxhciZkYXRhLzEzL2IvNjQ1MzAvQlJJVEFOSUMuVFRG" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+<section class="header">
+    <div class="logo"><img src="/src/img/logo.png"class="logo_img">
+        <div class="logo_text1">Next</div>
+        <div class="logo_text2"><a href="Home.html">Coffee</a></div>
+    </div>
+    <div class="headmenu">
+        <div class="home" >  <a href="Home.html">Головна</a></div>
+        <div class="catalog" ><a href="Catalog.html">Каталог</a></div>
+        <div class="support"><a href="Support.html">Допомога</a></div>
+        <div class="info"><a href="Info.html">Інформація</a></div>
+    </div>
+    <div class="head_vit"><h1>Вітаємо в</h1 >
+    <h1>NextCoffee</h1></div>
+    <div class="select_coffee">
+    <div class="button_vit"><a href="Catalog.html"><img src="/src/img/button_vit.png" alt=""></a></div>
+    <div class="text_select"><a href="Catalog.html">Обрати каву</a></div>
+    </div>
+
+</section>
+<!-- <div class="form">
+    <button>Замовити</button>
+
+<div class="popup">
+  <div class="popup__container">
+    <div class="popup__wrapper">
+      <div id="form_zam">
+        <div class="button2"><a href="Home.html"><img src="/src/img/icon_close.png" alt="" ></a></div>
+        <form role="form"action="https://formspree.io/f/mjvljbyk" autocomplete="off" method="POST">
+            <div class="form-inner_zam">
+                <input type="email" placeholder="Email" name="email">
+                <textarea placeholder="Ваше замовлення" rows="3" name="message"></textarea>
+                <input type="submit" value="Відправити">
+        </form>
+      </div>
+    </div>
+  </div>
+</div> -->
+<script type="text/javascript">
+
+    const button = document.querySelector('button');
+    const form = document.querySelector('#form_zam');
+    const popup = document.querySelector('.popup');
+    
+    button.addEventListener('click', () => {
+      form.classList.add('open');
+      popup.classList.add('popup_open');
+    });
+</script>
+</div>
+    <section class="slider_word">   
+        <script src="/src/Js/slider.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              new ChiefSlider('.slider', {
+                loop: true,
+                autoplay: true,
+                interval: 1200,
+              });
+            });
+          </script>
+        <div class="container">
+            <div class="slider" data-slider="chiefslider">
+              <div class="slider__container">
+                <div class="slider__wrapper">
+                  <div class="slider__items">
+                    <div class="slider__item">
+                      <div class="slider__item-container">
+                        <div class="slider__item-content">NextCoffee-місце для вашого відпочинку</div>
+                      </div>
+                    </div>
+                    <div class="slider__item">
+                      <div class="slider__item-container">
+                        <div class="slider__item-content">NextCoffee-місце де можна відволіктися від повсякденної рутини</div>
+                      </div>
+                    </div>
+                    <div class="slider__item">
+                      <div class="slider__item-container">
+                        <div class="slider__item-content">NextCoffee-місце де роблять найкращу каву</div>
+                      </div>
+                    </div>
+                    <div class="slider__item">
+                      <div class="slider__item-container">
+                        <div class="slider__item-content">NextCoffee-місце де працюють найкращи люди</div>
+                      </div>
+                    </div>
+                    <div class="slider__item">
+                      <div class="slider__item-container">
+                        <div class="slider__item-content">NextCoffee-місце для нових знайомств</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="slider__control" data-slide="prev"></a>
+              <a href="#" class="slider__control" data-slide="next"></a>
+            </div>
+        
+          </div>
+    </section>
+  
+    <section class="other_item">
+      <div class="item1"><img src="/src/icon/happy.svg" alt="" width="200" height="200"></div>
+      <div class="item2"><img src="/src/icon/coffee.svg" alt="" width="200" height="200"></div>
+      <div class="item3"><img src="/src/icon/music.svg" alt="" width="200" height="200"></div>
+      <div class="other_text">     
+      <div class="other_text1">Радій</div>
+      <div class="other_text2">Пий каву</div>
+      <div class="other_text3">Слухай гарну музику</div></div>
+<div class="nextother">
+  <div class="item4"><img src="/src/img/art1.png" alt="" width="800" height="850"></div>
+  <div class="other_text4"><a href="Info.html">Дізнатися більше про нас</a></div></div>
+  <div class="other_text5"><a href="Support.html">Є питання?</a></div></div>
+</div>
+    </section>
+
+
+<section class="footer">
+    <div class="logo_footer"><img src="/src/img/logo.png"class="logo_imgf">
+        <div class="logo_textf">NextCoffee</div>    
+    </div>
+    <div class="menuf">
+        <div class="homef" >  <a href="Home.html">Home</a></div>
+        <div class="catalogf" ><a href="Catalog.html">Catalog</a></div>
+        <div class="supportf"><a href="Support.html">Support</a></div>
+        <div class="infof"><a href="Info.html">Info</a></div>
+    </div>
+    <div class="socf">
+        <div class="facebook"><img src="/src/img/soc/facebook.png" alt=""></div>
+        <div class="instagram"><img src="/src/img/soc/instagram.png" alt=""></div>
+        <div class="gmail"><img src="/src/img/soc/gmail.png" alt=""></div>
+    </div>
+</section>
+
+
+<section class="button_up">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <a href="#" class="scrollup">Up</a>
+<script type="text/javascript">
+    $(document).ready(function(){
+     
+    $(window).scroll(function(){
+    if ($(this).scrollTop() > 100)   {
+    $('.scrollup').fadeIn();
+    } else {
+    $('.scrollup').fadeOut();
+    }
+    });
+     
+    $('.scrollup').click(function(){
+    $("html, body").animate({ scrollTop: 0 }, 600);
+    return false;
+    });
+     
+    });
+    </script>
+</section>
+
+</body>
+</html>
